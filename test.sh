@@ -24,6 +24,9 @@ then
     printf "\x1B[33m%*s\n\x1B[0m" $(((${#quest}+$COLUMNS)/2)) "$quest"
     echo
     read start
+else
+    rm data/test.csv
+    touch data/test.csv
 fi
 
 
