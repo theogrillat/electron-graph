@@ -1,6 +1,8 @@
 #!/bin/bash
 clear
 
+# test
+
 COLUMNS=$(tput cols)
 
 start=0
